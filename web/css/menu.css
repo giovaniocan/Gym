@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #202024;
+    --webkit-font-smoothing: antialiased; /*fazer sempre, é padrão */
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: #202024;
+}
+
+
+h1{
+    font-size: 3rem;
+    padding-top: 5rem;
+    color: white;
+    margin: 0px 0px 15px 0px;
+    font-family: 'roboto';
+}
+
+.opcoes{
+    margin-top: 6rem;
+}
+
+a{
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    hight:4rem;
+    padding: 25px;
+    margin: 8px 0;
+    width: 100%;
+    margin-top: 5rem;
+    text-decoration: none;
+    cursor:pointer;
+    border: 1px solid #8d8d99;
+    border-radius: 6px;
+    background: #00875f;
+   
+}
+
+a:hover{
+    font-weight: bold;
+    cursor:pointer;
+    border: 1px solid green;
+    border-radius: 6px;
+    background: #00875f;
+    
+}

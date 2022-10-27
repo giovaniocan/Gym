@@ -1,0 +1,11 @@
+header{
+     hight:10rem;
+     background: #121214;
+     display: flex;
+    justify-content: center;
+}
+
+img{
+    hight:80%;
+    width: 10rem;
+}

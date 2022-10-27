@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: #202024;
+    --webkit-font-smoothing: antialiased; /*fazer sempre, é padrão */
+}
+
+
+header{
+ 
+     hight:100%;
+     width: 100%;
+     background: #121214;
+     display: flex;
+    justify-content: center;
+}
+
+img{
+    hight:80%;
+    width: 10rem;
+}
+
+.container{
+    font-size:1.5rem;
+    height: 70%;
+    width: 60%;
+     background: #121214;
+    margin-top: 5rem;
+    margin-left: 23rem ;
+
+}
+
+.table-header{
+    display: flex;
+    background: activeborder;
+    gap: 11rem;
+    padding-left: -11rem;
+    
+}
+
+
+
+.responsive-{
+    background: #121214;
+    padding-left: 3rem;
+    gap: 5rem;
+}
+
+.table-row{
+    margin: 5rem 3rem 0 -7rem ;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.table-roww{
+    margin: 5rem 3rem 0 -14rem ;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.fa-pencil{
+    background: green;
+    padding: 6px;
+    border-radius: 6px;
+}
+.fa-trash-can{
+    background: red;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.icon{
+    width: 50px;
+}
+
+.col-col-1{
+  opacity: 0;
+}
+
+.col-col-4{
+display: block;
+}
