@@ -1,0 +1,23 @@
+CREATE TABLE Plano(
+    id INT NOT NULL PRIMARY KEY GENERATED ALWAYS 
+        AS IDENTITY (START WITH 1, increment by 1),
+    descrição VARCHAR(200) NOT NULL,
+    valor float NOT NULL
+);
+
+
+
+CREATE TABLE Usuario(
+    id INT NOT NULL PRIMARY KEY GENERATED ALWAYS 
+        AS IDENTITY (START WITH 1, increment by 1),
+    nome varchar(200) NOT NULL,
+    email varchar(200) NOT NULL,
+    senha varchar(200) NOT NULL, 
+    isAdm boolean NOT NULL,
+    id_Plano INT NOT NULL,
+    img blob(5M) NOT NULL,
+    imgtipo varchar(200) NOT NULL,
+
+    CONSTRAINT fk_Usuario_Plano_id FOREIGN KEY (id_Plano) REFERENCES Plano(id)
+);
+
